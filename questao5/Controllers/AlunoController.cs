@@ -17,6 +17,7 @@ namespace questao5.Controllers
         [HttpGet]
         public Aluno Get()
         {
+            // retornando o aluno
             return new Aluno
             {
                 Ru = 3781368,
@@ -24,7 +25,7 @@ namespace questao5.Controllers
             };
         }
 
-
+        // Entidade com as propriedades de um aluno
         public class Aluno
         {
             public int Ru { get; set; }
